@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: #202733;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+main {
+  .container {
+    //   padding-top: 48px;
+    width: 540px;
+    position: relative;
+    height: 332px;
+    background: #313a48;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //   justify-content: center;
+    text-align: center;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+
+    .textbox {
+      padding: 48px 48px 40px 48px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      h1.advice-head {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 4.08571px;
+        text-transform: uppercase;
+        color: #53ffaa;
+        margin-bottom: 24px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #cee3e9;
+        margin-bottom: 40px;
+        span {
+          display: block;
+        }
+      }
+    }
+    .dividerbox {
+      //   padding-bottom: 40px;
+    }
+    .dice {
+      position: absolute;
+      bottom: -10.49%;
+
+      #advice-btn {
+        width: 64px;
+        height: 64px;
+        background-color: #53ffaa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        &:hover {
+          box-shadow: 0px 0px 40px #53ffaa;
+        }
+      }
+    }
+  }
+  .attribution {
+    color: #cee3e9;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+    a {
+      color: #53ffaa;
+    }
+  }
+}

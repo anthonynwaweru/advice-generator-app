@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <script defer src="/script.js"></script>
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="textbox">
+          <h1 class="advice-head">Advice # <span id="advice-no"></span></h1>
+          <p id="advice">
+            Click Below to get your advice
+          </i>
+          </p>
+          <div class="dividerbox">
+            <picture>
+              <source
+                media="(min-width:350px)"
+                srcset="./images/pattern-divider-mobile.svg"
+              />
+              <img src="/images/pattern-divider-desktop.svg" alt="divider" />
+            </picture>
+          </div>
+        </div>
+        <div class="dice">
+          <a href="#" id="advice-btn" class="dice-button"
+            ><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
+                fill="#202733"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://anthonynwaweru.com" target="_blank">Anthony Waweru</a>.
+      </div>
+    </main>
+  </body>
+</html>
